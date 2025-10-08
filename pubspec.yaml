@@ -96,7 +96,7 @@ flutter:
 
 flutter_launcher_icons:
   android: true
-  ios: true
+  ios: false
   remove_alpha_ios: true
   image_path_android:  "images/logo.png"
   image_path_ios:  "images/logo.png"

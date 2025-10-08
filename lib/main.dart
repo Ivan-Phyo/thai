@@ -24,9 +24,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'AYAZON',
+      title: 'ဆုလာဘ်',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 255, 255, 255)),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
         },
       ),
     )
-    ..loadRequest(Uri.parse('https://ayazon.store/store/2'));
+    ..loadRequest(Uri.parse('https://app.hsulatt.com/login'));
 
   Future<List<String>> _androidFilePicker(FileSelectorParams params) async {
     final result = await FilePicker.platform.pickFiles();
